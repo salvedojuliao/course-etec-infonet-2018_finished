@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Movi.com</title>
+<link href="../Estilos/inicio.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="corpo">
+<h1 id="questao">Você sabe o que é violência?</h1>
+<div class="bannerpreto">
+	<div class="dropdown1">
+	<a href="index.html"><button class="inicio">Início</button></a>
+		<div class="dropdown1-content">
+		</div>
+	</div>
+	<div class="dropdown2">
+	<button class="temas">Temas</button>
+		<div class="dropdown2-content">
+			<a href="Violencia.html">O que é Violência ?</a>
+			<a href="conceitos.html">Violência Contra LGBT</a>
+			<a href="Feminicidio.html">Feminicídio</a>
+		</div>
+	</div>
+	<div class="dropdown3">
+	<button class="historia">Conte Sua História</button>
+		<div class="dropdown3-content">
+		<a href="FormularioExemplo.html">Escreva</a>	
+		<a href="como denunciar.html">Como denunciar?</a>
+		</div>
+	</div>
+	<div class="dropdown4">
+	<a href="Depoimentos.html"><button class="depoimento">Depoimentos</button></a>
+		<div class="dropdown4-content">
+		</div>
+	</div>
+	<div class="dropdown5">
+	<a href="galeria.html"><button class="galeria">Galeria De Imagens</button></a>
+		<div class="dropdown5-content">
+
+		</div>
+	</div>
+	<div class="dropdown6">
+	<button class="somos">Quem Somos</button>
+		<div class="dropdown6-content">
+			<a href="Quem Somos.html">Sobre</a>
+		</div>
+	</div>
+</div>
+<div class="fundodologo">
+	<img id="logo" src="../Imagens/Logo.png" alt="Logo do site">
+	<img id="prediooficial" src="../Imagens/prediooficial.png" alt="predio">
+</div>
+<div id="slide">
+<div class="slideshow-container">
+<div class="mySlides fade">
+   <img src="../Imagens/mao5.png" width="100%" height="100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../Imagens/mao1.png" width="100%" height="100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../Imagens/mao3.png" width="100%" height="100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../Imagens/mao4.png" width="100%" height="100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="../Imagens/mao2.png" width="100%" height="100%">
+</div>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides();
+
+function showSlides() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+	var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+	  
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 1500); // Change image every 2 seconds
+}
+
+</script>
+</div>
+<div id="banner2">
+<h1 id="ideia">Ideia do Site<h1>
+</div>
+<div id="info">
+<div id="ideia2"><p>O site desenvolvido tem como objetivo informar e orientar as pessoas sobre temas relacionados
+ à violência e os fatores que fazem com que ela exista. A comunidade LGBT (Lésbicas, Gays, Bissexuais e Transexuais)
+ é o foco do site, que busca enfatizar o descaso que existe em relação à homofobia mascarada que atua de maneira 
+ constante na vida dessas pessoas, sendo elas homens ou mulheres, nenhum de ambos devem ser julgados e terem suas vidas
+ medidas por consequência de sua orientação sexual ou identidade de gênero.</p></div>
+<a class="opa" href="Violencia.html"><div id="circulo"></div></a>
+<a class="opa" href="conceitos.html"><div id="circulo2"></div></a>
+<div class="violencia"><p class="violencia">O que é violência?</p></div>
+<div class="lgbt"><p class="lgbt">Violência contra comunidade LGBT</p></div>
+<div id="barra"></div>
+<div id="barra2"></div>
+</div>
+<div id="rodape"><img src="../Imagens/Rodape.png" alt="Rodapé do site"></div>
+</div>
+</body>
+</html>
